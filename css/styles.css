@@ -270,6 +270,8 @@ body {
       color: #434455;
   }
   
+  /*team section*/
+  
   .team {
       background: #f4f4fd;
   }
@@ -318,9 +320,7 @@ body {
   justify-content: center;
   flex-direction: row;
   gap: 24px;
-  width: 232px;
-  height: 40px;
-  margin-top: 8px;
+  
   }
   .ot-iconio {
     display: flex;
@@ -340,7 +340,8 @@ background-color: #404bbf;
   }
   .ico-team {
     height: 40px;
-  }
+    margin: 0;
+}
   
   .team-content {
     padding: 32px 0;
